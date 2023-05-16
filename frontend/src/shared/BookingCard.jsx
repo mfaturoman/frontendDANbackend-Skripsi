@@ -40,7 +40,7 @@ const BookingCard = ({ booking }) => {
 
             <div className="card__bootom d-flex align-items-center justify-content-between mt-3">
                 <h5>
-                    Rp.{price} <span> / Per 1 Jam</span>
+                    Rp.{price} <span> / Per Jam</span>
                 </h5>
 
                 <button className="btn booking__btn">

@@ -69,7 +69,7 @@ const BookingDetail = () => {
                   <i class="ri-map-pin-2-line"></i> {city}
                 </span>
                 <span>
-                  <i class="ri-money-dollar-circle-line"></i> Rp.{price} / per person
+                  <i class="ri-money-dollar-circle-line"></i> Rp.{price} / Per Jam
                 </span>
                 <span>
                   <i class="ri-money-dollar-circle-line"></i> {distance} k/m
@@ -123,7 +123,7 @@ const BookingDetail = () => {
 
               <ListGroup className="user__reviews">
                 {
-                  reviews?.map(revies=>(
+                  reviews?.map(review =>(
                     <div className="review__item">
                       <img src={avatar} alt="" />
 
